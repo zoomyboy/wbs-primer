@@ -1,0 +1,32 @@
+.window {
+    background: lightgray;
+    width: 400px;
+    margin: 100px auto;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+}
+
+.window header {
+    background: blue;
+    color: white;
+    padding: 5px 10px;
+}
+
+.window main {
+    padding: 20px;
+}
+
+.window main>img {
+    width: 30px;
+    height: auto;
+}
+
+.window main div>img {
+    width: 30px;
+    height: auto;
+    display: inline-block;
+}
+
+.window main div>p {
+    display: inline-block;
+}
